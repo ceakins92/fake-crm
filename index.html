@@ -9,12 +9,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./static/main.css">
+    <script src="https://kit.fontawesome.com/91ef6fabb5.js" crossorigin="anonymous"></script>
     <title>DoubleTap: Landing Page</title>
 </head>
 <body>
     <div class="landing-container">
-        <nav class="navigation"></nav>
+
+        <nav class="navigation">
+            <div class="nav-logo">
+                <img src="./images/logo.png" alt="DoubleTap logo">
+            </div>
+            <ul class="nav-ul">
+                <li class="nav-items">
+                    <a href="./index.html" alt=""
+                    class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" alt=""
+                    class="nav-link">
+                        Features
+                    </a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" alt=""
+                    class="nav-link">
+                        Pricing
+                    </a>
+                </li>
+                <li class="nav-items">
+                    <a href="./how-it-works.html" alt=""
+                    class="nav-link">
+                        How it Works
+                    </a>
+                </li>
+                <li class="nav-items">
+                    <a href="#" alt=""
+                    class="nav-link">
+                        Support
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="./sign-in.html" alt="Sign In" class="nav-btn nav-btn-signin">Sign In</a>
+                <a href="./sign-up.html" alt="Try" class="nav-btn nav-btn-try">Try It Free</a>
+            </div>
+        </nav>
+
         <main class="landing-main">
 
             <section class="landing-hero-text">
@@ -22,8 +66,8 @@
                 <h2 class="landing-hero-h2">Let Us Handle Everything Else</h2>
                 <p class="landing-hero-p"><strong>Subscription Billing, powered with revenue retention tools and a seamless customer experience - without the technical hurdles.</strong></p>
                 <div class="landing-hero-text-buttons">
-                    <a href="#" class="l-btn landing-btn-signup" alt="Sign Up">Sign Up Free</a>
-                    <a href="#" class="l-btn landing-btn-chat" alt="Chat with us">Chat With Us</a>
+                    <a href="#" class="l-btn landing-btn-signup" alt="Sign Up">Sign Up Free <i class="fa-solid fa-angles-right"></i></a>
+                    <a href="#" class="l-btn landing-btn-chat" alt="Chat with us"><i class="fa-solid fa-comment-dots"></i> Chat With Us</a>
                 </div>
                 <p class="landing-hero-already">
                     Already using <b>Double</b>Tap? 
@@ -74,15 +118,15 @@
                     <img src="./images/info-side.png" alt="Info"/>
                 </div>
                 <div class="landing-info-text">
-                    <h2>Start accepting payments with Ease</h2>
-                    <p><strong>Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you your products and services.</strong></p>
+                    <h2 class="landing-info-text-h2">Start accepting payments with Ease</h2>
+                    <p class="landing-info-text-p"><strong>Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you your products and services.</strong></p>
                     <ul class="landing-info-list">
                         <li class="landing-info-list-item">Accept credit & debit cards, Paypal, ACH, Apple Pay and more with the flick of a switch.</li>
                         <li class="landing-info-list-item">Process transactions in up to 32 different currencies.</li>
                         <li class="landing-info-list-item">Integrate with popular payment gateways like Stripe and Braintree.</li>
                         <li class="landing-info-list-item">Select from a variety of different checkout options and experiences.</li>
                     </ul>
-                    <a href="#" class="landing-btn-info" >Learn More</a>
+                    <a href="#" class="landing-btn-info" >Learn More <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
             </section>
 
@@ -94,33 +138,51 @@
                 <img src="./images/solution-email.png" class="" alt="" />
                 <h3 class="landing-sol-item-head">Email Dashboards</h3>
                 <p class="landing-sol-item-text">Automate client responses and keep track of any communication your team has with a client.</p>
-                <a href="#" class="landing-btn-sol-item">Learn More</a>
+                <a href="#" class="landing-btn-sol-item">Learn More <i class="fa-solid fa-chevron-right"></i></a>
             </section>
 
             <section class="landing-sol landing-sol-2">
                 <img src="./images/solution-task.png" class="" alt="" />
                 <h3 class="landing-sol-item-head">Task Management</h3>
                 <p class="landing-sol-item-text">Automate client responses and keep track of any communication your team has with a client.</p>
-                <a href="#" class="landing-btn-sol-item">Learn More</a>
+                <a href="#" class="landing-btn-sol-item">Learn More <i class="fa-solid fa-chevron-right"></i></a>
             </section>
 
             <section class="landing-sol landing-sol-3">
                 <img src="./images/solution-analytics.png" class="" alt="" />
                 <h3 class="landing-sol-item-head">Analytics</h3>
                 <p class="landing-sol-item-text">Automate client responses and keep track of any communication your team has with a client.</p>
-                <a href="#" class="landing-btn-sol-item">Learn More</a>
+                <a href="#" class="landing-btn-sol-item">Learn More <i class="fa-solid fa-chevron-right"></i></a>
             </section>
 
             <section class="landing-sol landing-sol-4">
                 <img src="./images/solution-calendar.png" class="" alt="" />
                 <h3 class="landing-sol-item-head">Project Calendars</h3>
                 <p class="landing-sol-item-text">Automate client responses and keep track of any communication your team has with a client.</p>
-                <a href="#" class="landing-btn-sol-item">Learn More</a>
+                <a href="#" class="landing-btn-sol-item">Learn More <i class="fa-solid fa-chevron-right"></i></a>
             </section>
 
         </main>
 
-        <footer class="footer"></footer>
+        <footer class="l-footer">
+            <div class="foot-htxt">
+                <h2 class="foot-htxt-head">Try Double Tap Today!</h2>
+                <p class="foot-htxt-p"><strong>Let's Get Started</strong></p>
+            </div>
+            <div class="foot-buttons">
+                <a href="./sign-up.html" alt="Get Started" class="foot-btn foot-btn-start">Get Started <i class="fa-solid fa-angles-right"></i></a>
+                <a href="#" alt="Chat with Us" class="foot-btn foot-btn-chat"><i class="fa-solid fa-comment-dots"></i> Chat With Us</a>
+            </div>
+            <div class="foot-bottom">
+                <span class="foot-bottom-item">Free 14-Day Trial</span>
+                <span class="blue--ball">🔵</span>
+                <span class="foot-bottom-item">Manage Customers in Minutes</span>
+                <span class="blue--ball">🔵</span>
+                <span class="foot-bottom-item">Cancel at Anytime</span>
+            </div>
+        </footer>
+
+
     </div>
     
 </body>
