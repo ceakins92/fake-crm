@@ -1,4 +1,4 @@
-/* Gian */
+/* ==============================  Gian - Start ===================================== */
 
 * {
   box-sizing: border-box;
@@ -466,8 +466,160 @@ a.foot-btn-chat:visited {
     color: var(--blue);
 }
 
+/* ==============================  Gian - End ===================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================  Hemet - Start ===================================== */
+
+
+*{
+  margin: 0;
+  padding:0;
+}
 a.foot-btn:hover {
     text-decoration: underline;
+}
+body,html{
+  background-color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  background-position: center center;
+  height: 100vh;
+}
+/* navigation bar */
+.nav ul{
+list-style-type:none;
+ display: flex;
+ margin:0 70px;
+}
+.nav ul li{
+  display: inline;
+  padding: 30px;
+  font-size: 8px;
+  transition: all .5s ease;
+}
+.header{
+  background-color: white;
+  overflow: hidden;
+}
+.nav{
+  display:grid;
+  grid-template-columns:6fr 6fr;
+  align-items: center;
+  width: 1100px;
+  margin: auto;
+}
+.nav img {
+  width: 100px;
+  height: 90%;
+  margin:20px ;
+}
+.nav button{
+  width: 120px;
+  height:75%;
+  margin: 20px
+}
+.nav button{
+color: white;
+border-radius: 7px;
+background-color: blue;
+}
+/* .nav ul li :hover{
+  color: red;
+  background: black;
+} */
+
+/* good untill here accept could not change the color of the text of the button */
+.hero-text-container{
+  grid-template-columns:1fr 1fr;
+  height: 95vh;
+  display:grid;
+  padding:3rem;
+  }
+
+.hero-text-top{
+  display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ padding: 1rem;
+}
+.hero-text-top h1{
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.hero-text-top h3{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+.hero-text-top p{
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.1;
+}
+.hero-button2{
+  display:inline-block;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color:white;
+  background-color:blue;
+  cursor:pointer;
+  border-radius: 15px;
+}
+.hero-button1{
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #0314fe;
+  background-color: #fefefe;
+  cursor:pointer;
+  border-radius: 15px;
+}
+.hero-image-top{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  padding: 1rem;
+}
+.hero-text-top{
+  display: flex;
 }
 
 .foot-bottom {
@@ -576,6 +728,7 @@ a.foot-btn:hover {
 
 }
 
+/* ==============================  Hemet - End ===================================== */
 
 
 
@@ -608,44 +761,7 @@ a.foot-btn:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* Hemet */
-.grid-container {
-  display: grid;
-  grid-template-columns: 200px 250px;
-  grid-auto-rows: minmax(150px, auto);
-  grid-row-gap: 20px;
-  gap: 10px;
-}
-
-hr {
-  width: 50px;
-  text-align: center;
-}
-
-.footer {
-  grid-area: l-foot;
-}
-
-article {
-  text-align: right;
-}
-
-p {
-  text-align: right;
-}
-
-
-/* Chris */
+/* ==============================  Chris - Start ===================================== */
 
 .b-holder {
   background-color: white;
@@ -1104,3 +1220,5 @@ button.sup-btn {
     font-size: 15px;
   }
 }
+
+/* ==============================  Chris - End ===================================== */
